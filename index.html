@@ -26,27 +26,29 @@
           </a>
         </h1>
 
-        <div class="header-element" id="nav-waffle">
-          <a href="#" class="link-corner" id="link-waffle">
-            <img
-              src="https://res.cloudinary.com/permalik/image/upload/q_50/v1609652372/waffle-icon.png"
-              alt="waffle menu icon"
-              id="waffle"
-            />
-          </a>
-        </div>
+        <div class="header-element" id="corner-nav">
+          <div class="header-element" id="nav-waffle">
+            <a href="#" class="link-corner" id="link-waffle">
+              <img
+                src="https://res.cloudinary.com/permalik/image/upload/q_50/v1609652372/waffle-icon.png"
+                alt="waffle menu icon"
+                id="waffle"
+              />
+            </a>
+          </div>
 
-        <div class="header-element" id="sign-in">
-          <strong>
-            <a
-              href="#"
-              onmousedown="darkBlue()"
-              onmouseup="lightBlue()"
-              class="link-corner"
-              id="link-sign-in"
-              >Sign in</a
-            >
-          </strong>
+          <div class="header-element" id="sign-in">
+            <strong>
+              <a
+                href="#"
+                onmousedown="darkBlue()"
+                onmouseup="lightBlue()"
+                class="link-corner"
+                id="link-sign-in"
+                >Sign in</a
+              >
+            </strong>
+          </div>
         </div>
 
         <div class="header-element" id="nav-main">
@@ -55,7 +57,7 @@
               <input type="text" name="search" class="search-tool" id="box" />
               <span id="mag-container">
                 <img
-                  src="/images/mag-glass.png"
+                  src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756931/mag-glass.png"
                   alt="magnifying glass"
                   class="search-tool"
                   id="mag"
@@ -64,6 +66,7 @@
             </div>
           </div>
 
+          <!--Tab Bar-->
           <div class="div-nav" id="tab-bar">
             <section class="section-tab" id="genre">
               <div class="tab" id="tab-all">
@@ -71,8 +74,8 @@
                   <a href="#" class="link-tab" id="link-all">
                     <span class="span-img" id="span-img-all">
                       <img
-                        src="#"
-                        alt="rainbow-mag"
+                        src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756978/r-mag.png"
+                        alt="rainbow magnifying glass"
                         class="img-tab"
                         id="img-all"
                       />
@@ -82,45 +85,13 @@
                 </h2>
               </div>
 
-              <div class="tab" id="tab-videos">
-                <h2>
-                  <a href="#" class="link-tab" id="link-videos">
-                    <span class="span-img" id="span-img-videos">
-                      <img
-                        src="#"
-                        alt="rainbow-mag"
-                        class="img-tab"
-                        id="img-videos"
-                      />
-                    </span>
-                    <span class="tab-txt" id="videos"> Videos </span>
-                  </a>
-                </h2>
-              </div>
-
-              <div class="tab" id="tab-images">
-                <h2>
-                  <a href="#" class="link-tab" id="link-images">
-                    <span class="span-img" id="span-img-images">
-                      <img
-                        src="#"
-                        alt="rainbow-mag"
-                        class="img-tab"
-                        id="img-images"
-                      />
-                    </span>
-                    <span class="tab-txt" id="images"> Images </span>
-                  </a>
-                </h2>
-              </div>
-
               <div class="tab" id="tab-news">
                 <h2>
                   <a href="#" class="link-tab" id="link-news">
                     <span class="span-img" id="span-img-news">
                       <img
-                        src="#"
-                        alt="rainbow-mag"
+                        src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756968/news.png"
+                        alt="newspaper icon"
                         class="img-tab"
                         id="img-news"
                       />
@@ -130,18 +101,50 @@
                 </h2>
               </div>
 
-              <div class="tab" id="tab-books">
+              <div class="tab" id="tab-videos">
                 <h2>
-                  <a href="#" class="link-tab" id="link-books">
-                    <span class="span-img" id="span-img-books">
+                  <a href="#" class="link-tab" id="link-videos">
+                    <span class="span-img" id="span-img-videos">
                       <img
-                        src="#"
-                        alt="rainbow-mag"
+                        src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610757017/vid.png"
+                        alt="video icon"
                         class="img-tab"
-                        id="img-books"
+                        id="img-videos"
                       />
                     </span>
-                    <span class="tab-txt" id="books"> Books </span>
+                    <span class="tab-txt" id="videos">Videos</span>
+                  </a>
+                </h2>
+              </div>
+
+              <div class="tab" id="tab-maps">
+                <h2>
+                  <a href="#" class="link-tab" id="link-maps">
+                    <span class="span-img" id="span-img-maps">
+                      <img
+                        src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756941/map.png"
+                        alt="map marker"
+                        class="img-tab"
+                        id="img-maps"
+                      />
+                    </span>
+                    <span class="tab-txt" id="maps">Maps</span>
+                  </a>
+                </h2>
+              </div>
+
+              <div class="tab" id="tab-shopping">
+                <h2>
+                  <a href="#" class="link-tab" id="link-shopping">
+                    <span class="span-img" id="span-img-shopping">
+                      <img
+                        src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610757007/tag.png"
+                        alt="price tag"
+                        class="img-tab"
+                        id="img-shopping"
+                      />
+                    </span>
+                    <span class="tab-txt" id="shopping">Shopping</span>
                   </a>
                 </h2>
               </div>
@@ -151,19 +154,19 @@
                   <a href="#" class="link-tab" id="link-more">
                     <span class="span-img" id="span-img-more">
                       <img
-                        src="#"
-                        alt="rainbow-mag"
+                        src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756949/menu.png"
+                        alt="three vertical dot menu"
                         class="tab-img"
                         id="img-more"
                       />
                     </span>
-                    <span class="tab-txt" id="more"> More </span>
+                    <span class="tab-txt" id="more">More</span>
                   </a>
                 </h2>
               </div>
             </section>
 
-            <section class="tab-section" id="tab-utility">
+            <section class="tab-section" id="utility">
               <div class="tab" id="tab-settings">
                 <a href="#">
                   <span class="tab-txt" id="settings">Settings</span>
@@ -177,26 +180,28 @@
               </div>
             </section>
           </div>
+          <!--Tab Bar-->
         </div>
       </nav>
     </header>
 
     <main>
       <div class="div-main" id="performance">
-        <p>About 94,800,000 results (0.66 seconds)</p>
+        <p id="performance">About 94,800,000 results (0.66 seconds)</p>
       </div>
 
+      <!--10 Results-->
       <section class="div-main div-result" id="result-one">
         <div class="div-index" id="div-index-one">
-          <span class="result-url" id="url-one">vic-lf.github.io</span>
+          <span class="result-url" id="url-one">victor-lf.github.io</span>
           <span class="sub-cat" id="sub-cat-one">› google-search-results</span>
           <span class="option-cache" id="cache-one">▾</span>
         </div>
         <div class="result-head" id="result-head-one">
           <h3>
-            <span>
-              <a href="#"> build this webpage - GitHub Pages </a>
-            </span>
+            <a href="#" class="result-topic">
+              build this webpage - GitHub Pages
+            </a>
           </h3>
         </div>
         <div class="div-par" id="div-par-one"></div>
@@ -207,13 +212,32 @@
         </p>
       </section>
 
+      <!--People Search-->
       <section class="div-main" id="people-search">
-        <h4>People also search for</h4>
-        <a href="#">html and css projects</a>
-        <a href="#">w3schools</a>
-        <a href="#">odin project</a>
-        <a href="#">github</a>
+        <div class="div-main" id="ppl-search">
+          <h4 id="ppl-search-head"><strong>People also search for</strong></h4>
+          <div id="ppl-search-grid">
+            <a href="#" class="ppl-search-item" id="ppl-search-item-one"
+              >html and css projects</a
+            >
+            <a href="#" class="ppl-search-item" id="ppl-search-item-two"
+              >w3schools</a
+            >
+            <a href="#" class="ppl-search-item" id="ppl-search-item-three"
+              >odin project</a
+            >
+            <a href="#" class="ppl-search-item" id="ppl-search-item-four"
+              >github</a
+            >
+          </div>
+
+          <div id="ppl-search-toggle">
+            <button id="ppl-search-target" onmousedown="closeBox()"></button>
+            <span id="ppl-search-x">×</span>
+          </div>
+        </div>
       </section>
+      <!--People Search-->
 
       <section class="div-main div-result" id="result-two">
         <div class="div-index" id="div-index-two">
@@ -223,7 +247,9 @@
         </div>
         <div class="result-head" id="result-head-two">
           <h3>
-            <a href="#">build this webpage - GitHub Pages</a>
+            <a href="#" class="result-topic"
+              >build this webpage - GitHub Pages</a
+            >
           </h3>
         </div>
         <div class="div-par" id="div-par-two">
@@ -246,7 +272,7 @@
         </div>
         <div class="result-head" id="result-head-three">
           <h3>
-            <a href="#"
+            <a href="#" class="result-topic"
               >How to Build a Website in 2021 | A Step-by-Step Beginner's
               Guide</a
             >
@@ -254,7 +280,7 @@
         </div>
         <div class="div-par" id="div-par-three">
           <p class="result-par" id="result-par-three">
-            <span class="date-par">Dec 17, 2020 —</span> How to
+            <span class="date date-par">Dec 17, 2020 —</span> How to
             <strong>Build</strong> a <strong>Website</strong> from Scratch.
             We'll look at how to make a <strong>website</strong> with both a
             <strong>website</strong> builder and WordPress, with no steps left
@@ -272,7 +298,7 @@
         </div>
         <div class="result-head" id="result-head-four">
           <h3>
-            <a href="#">How to Create a Website | PCMag</a>
+            <a href="#" class="result-topic">How to Create a Website | PCMag</a>
           </h3>
         </div>
         <div class="div-par" id="div-par-four">
@@ -288,148 +314,73 @@
       <!--People Also Ask-->
       <section class="div-main people-ask" id="people-ask">
         <h4>People also ask</h4>
+
         <!--DD 1-->
-        <button class="dropbtn people-ask" id="dropbtn-one">
-          How can I create my own webpage?
-        </button>
-
-        <div class="div-main people-ask" id="expand-one">
-            <div class="dropcont people-ask" id="dropcont-one">
-                <h5>Table of contacts (steps to launch a website):</h5>
-                    <ol>
-                        <li>Choose a domain name.</li>
-                        <li>
-                        Register a domain and sign up with <strong>web</strong> hosting.
-                        </li>
-                        <li>Set up a <strong>website</strong> using WordPress (through <strong>web</strong> host</strong>)</li>
-                        <li>Customize your <strong>website</strong> design and structure.</li>
-                        <li>Add important pages and content.</li>
-                        <li>Set up navigation menu.</li>
-                        <li>Add online store (optional)</li>
-                    </ol>
-            </div>
-
-            <div class="people-ask" id="dropcont-date-one">
-                <span>Nov 5, 2020</span>
-            </div>
-            
-            <div class="dropref people-ask" id="dropref-one">
-                <a href="#">
-                    <span>websitesetup.org</span>
-                    <span>▾</span>
-                    <h3>How to Create a Website: Step-by-Step Guide for Beginners ...</h3>
-                </a>
-            </div>
-
-            <div class="dropsugg people-ask" id="dropsugg-one">
-                <span>Search for: <a href="#">How can I create my own webpage?</a></span>
-            </div>
+        <div class="dropbtn-one-cont" id="dropbtn-one-cont">
+          <div
+            class="dropbtn-one-box"
+            id="dropbtn-one-box"
+            onclick="arrowOneTogg()"
+          >
+            <button class="dropbtn btn-people-ask" id="dropbtn-one">
+              How can I create my own webpage?
+            </button>
+            <span class="dropbtn-arrow" id="dropbtn-one-arrow">ˇ</span>
+          </div>
         </div>
         <!--DD 1-->
 
         <!--DD 2-->
-        <button class="dropbtn people-ask" id="dropbtn-two">
-            What does it cost to build a Web page?
-        </button>
+        <div class="dropbtn-one-cont" id="dropbtn-two-cont">
+          <div class="dropbtn-one-box" id="dropbtn-two-box">
+            <button
+              class="dropbtn btn-people-ask"
+              id="dropbtn-two"
+              onclick="arrowTwoTogg()"
+            >
+              What does it cost to build a Web page?
+            </button>
 
-        <div class="div-main people-ask" id="expand-two">
-            <div class="dropcont people-ask" id="dropcont-two">
-                <span>
-                    How much should a website cost, though? On average, the upfront cost of a site, which includes launching and designing it, is $12,000 to $150,000, while routine website maintenance ranges from $35 to <strong>$5000</strong> per month — or $400 to $60,000 per year.
-                </span>
-            </div>
+            <span class="dropbtn-arrow" id="dropbtn-two-arrow">ˇ</span>
+          </div>
         </div>
-
-        <div class="people-ask" id="dropcont-date-two">
-            <span>Jul 1, 2020</span>
-        </div>
-
-        <div class="dropref people-ask" id="dropref-two">
-            <a href="#">
-                <span>www.webfx.com</span>
-                <span>› How-much-should-web-site-cost</span>
-                <h3>How Much Should a Website Cost? (The Official 2021 Guide | WebFX)</h3>
-            </a>
-        </div>
-
-        <div class="dropsugg people-ask" id="dropsugg-two">
-            <span>Search for: <a href="#">What does it cost to build a webpage?</a></span>
-        </div>
-    </div>
         <!--DD 2-->
 
         <!--DD 3-->
-        <button class="dropbtn people-ask" id="dropbtn-three">
-            How can I create my own website for free?
-          </button>
-  
-          <div class="div-main people-ask" id="expand-three">
-              <div class="dropcont people-ask" id="dropcont-three">
-                  <h5>How to Create a Free Website</h5>
-                      <ol>
-                          <li>Sign up for a <strong>free website</strong> builder. Choose what kind of <strong>website</strong> you want to <strong>create</strong>.</li>
-                          <li>
-                          Customize a template or get a <strong>website</strong> made for you. Choose your starting point.
-                          </li>
-                          <li>Drag and drop 100s of design features. ...</li>
-                          <li>Get ready for business. ...</li>
-                          <li>Publish your <strong>website</strong> and go live. ...</li>
-                          <li>Drive traffic to your site.</li>
-                      </ol>
-              </div>
-              
-              <div class="dropref people-ask" id="dropref-three">
-                  <a href="#">
-                      <span>www.wix.com</span>
-                      <h3>Wix.com: Free Website Builder | Create a Free Website</h3>
-                  </a>
-              </div>
-  
-              <div class="dropsugg people-ask" id="dropsugg-three">
-                  <span>Search for: <a href="#">How can I create my own website for free?</a></span>
-              </div>
+        <div class="dropbtn-one-cont" id="dropbtn-three-cont">
+          <div class="dropbtn-one-box" id="dropbtn-three-box">
+            <button
+              class="dropbtn btn-people-ask"
+              id="dropbtn-three"
+              onclick="arrowThreeTogg()"
+            >
+              How can I create my own website for free?
+            </button>
+
+            <span class="dropbtn-arrow" id="dropbtn-three-arrow">ˇ</span>
           </div>
+        </div>
+        <!--DD 3-->
+
+        <!--DD 4-->
+        <div class="dropbtn-one-cont" id="dropbtn-four-cont">
+          <div class="dropbtn-one-box" id="dropbtn-four-box">
+            <button
+              class="dropbtn btn-people-ask"
+              id="dropbtn-four"
+              onclick="arrowFourTogg()"
+            >
+              How can I create a simple website?
+            </button>
+
+            <span class="dropbtn-arrow" id="dropbtn-four-arrow">ˇ</span>
+          </div>
+        </div>
+
+        <div class="div-main feedback" id="feedback-one">
+          <span class="feedback"> Feedback </span>
+        </div>
       </section>
-      <!--DD 3-->
-
-      <!--DD 4-->
-      <button class="dropbtn people-ask" id="dropbtn-four">
-        How can I create a simple website?
-      </button>
-
-      <div class="div-main people-ask" id="expand-four">
-          <div class="dropcont people-ask" id="dropcont-four">
-              <h5>So in this post, we'll walk you through everything you need to do to set up a basic website:</h5>
-                  <ol>
-                      <li>Define your site's purpose.</li>
-                      <li>
-                      Choose a <strong>website</strong> hosting company.
-                      </li>
-                      <li>Choose your site builder</li>
-                      <li>Outline your <strong>web</strong> pages.</li>
-                      <li>Optimize your <strong>website</strong>.</li>
-                      <li>Set up a payment processor.</li>
-                  </ol>
-          </div>
-
-          <div class="people-ask" id="dropcont-date-four">
-              <span>Dec 31, 2019</span>
-          </div>
-          
-          <div class="dropref people-ask" id="dropref-four">
-              <a href="#">
-                  <span>www.wordstream.com</span>
-                  <span>› blog</span>
-                  <span>› 2019/12/31</span>
-                  <span>› basic-website</span>
-                  <h3>6 Simple Steps to Build a Basic Website | WordStream</h3>
-              </a>
-          </div>
-
-          <div class="dropsugg people-ask" id="dropsugg-four">
-              <span>Search for: <a href="#">How can I create a simple website?</a></span>
-          </div>
-      </div>
       <!--DD 4-->
       <!--People Also Ask-->
 
@@ -440,7 +391,9 @@
         </div>
         <div class="result-head" id="result-head-five">
           <h3>
-            <a href="#">Squarespace: Build a Website — Website Builder</a>
+            <a href="#" class="result-topic"
+              >Squarespace: Build a Website — Website Builder</a
+            >
           </h3>
         </div>
         <div class="div-par" id="div-par-five">
@@ -459,14 +412,14 @@
         </div>
         <div class="result-head" id="result-head-six">
           <h3>
-            <a href="#"
+            <a href="#" class="result-topic"
               >How to Create a Website: Step-by-Step Guide for Beginners ...</a
             >
           </h3>
         </div>
         <div class="div-par" id="div-par-six">
           <p class="result-par" id="result-par-six">
-            <span class="date-par">Nov 5,2020 —</span> Learn how to make a
+            <span class="date date-par">Nov 5,2020 —</span> Learn how to make a
             <strong>website</strong> and set it up. This site contains different
             tutorials on how to <strong>build</strong> a
             <strong>website</strong> using WordPress, Joomla, Drupal ...
@@ -482,14 +435,14 @@
         </div>
         <div class="result-head" id="result-head-seven">
           <h3>
-            <a href="#"
+            <a href="#" class="result-topic"
               >How to Make a Website in 10 mins - Simple & Easy - YouTube</a
             >
           </h3>
         </div>
         <div class="div-par" id="div-par-seven">
           <p class="result-par" id="result-par-seven">
-            <span class="date-par">Jan 3, 2018 —</span> Start Here ➔
+            <span class="date date-par">Jan 3, 2018 —</span> Start Here ➔
             https://websitelearners.com/video/make-a-<strong>website</strong>/#startGet
             our NEW Course ... HTML Full Course - <strong>Build</strong> a
             <strong>Website</strong> Tutorial.
@@ -508,7 +461,7 @@
         </div>
         <div class="result-head" id="result-head-eight">
           <h3>
-            <a href="#"
+            <a href="#" class="result-topic"
               >Free Website Builder For Your Business - Google My Business</a
             >
           </h3>
@@ -533,12 +486,14 @@
         </div>
         <div class="result-head" id="result-head-nine">
           <h3>
-            <a href="#">How to Create a Website: Step-by-Step Tutorial</a>
+            <a href="#" class="result-topic"
+              >How to Create a Website: Step-by-Step Tutorial</a
+            >
           </h3>
         </div>
         <div class="div-par" id="div-par-nine">
           <p class="result-par" id="result-par-nine">
-            <span class="date-par">Oct 21, 2020 —</span> Hosting a
+            <span class="date date-par">Oct 21, 2020 —</span> Hosting a
             <strong>website</strong> on these "bundle" platforms is usually
             expensive and less flexible; but you'll get to
             <strong>build</strong> a <strong>website</strong> or online store
@@ -554,7 +509,7 @@
         </div>
         <div class="result-head" id="result-head-ten">
           <h3>
-            <a href="#"
+            <a href="#" class="result-topic"
               >How You Can Make a Website in just 1 Hour - 2021 Ultimate ...</a
             >
           </h3>
@@ -566,123 +521,133 @@
             <strong>website</strong> on. There are many ...
           </p>
         </div>
+        <!--10 Results-->
       </section>
 
       <!--People Also Search-->
-      <h4>People also search for</h4>
+      <h4 id="people-also-search-head">People also search for</h4>
 
-      <section class="div-main people-search" id="people-search">
-
-        <button class="dropbtn people-search" id="dropbtn-uno">
-          Best website builder
-        </button>
-
-        <div class="div-main people-search" id="expand-uno">
-            <div class="dropcont people-search" id="card-one">
-              <a href="#">
-                <img src="/images/sqsp.jpg" alt="squarespace">
-                <span>Squaresp...</span>
-              </a>
-            </div>
-
-            <div class="dropcont people-search" id="card-two">
-              <a href="#">
-                <img src="/images/wp.png" alt="wordpress">
-                <span>WordPress</span>
-              </a>
-            </div>
-
-            <div class="dropcont people-search" id="card-three">
-              <a href="#">
-                <img src="/images/gd.jpg" alt="go daddy">
-                <span>GoDaddy</span>
-              </a>
-            </div>
-
-            <div class="dropcont people-search" id="card-four">
-              <a href="#">
-                <img src="/images/wb.png" alt="weebly">
-                <span>Weebly</span>
-              </a>
-            </div>
-
-            <div class="dropcont people-search" id="card-five">
-              <a href="#">
-                <img src="/images/sh.png" alt="shopify">
-                <span>Shopify</span>
-              </a>
-            </div>
-            <div class="dropcont people-search" id="card-six">
-              <a href="#">
-                <img src="/images/wf.png" alt="webflow">
-                <span>Webflow</span>
-              </a>
-            </div>
-            <div>
-            <button>
-              See more
+      <section class="div-main people-also-search" id="people-also-search">
+        <div class="card-box" id="card-box-holder">
+          <div class="card-box" id="card-box-one">
+            <button
+              class="dropbtn people-also-search"
+              id="dropbtn-uno"
+              onclick="arrowUnoTogg()"
+            >
+              Best website builder
             </button>
-            <span>
-              ➔
-            </span>
+
+            <span class="dropbtn-arrow" id="dropbtn-uno-arrow">ˇ</span>
+
+            <div class="div-main people-also-search" id="expand-uno">
+              <div class="dropcont search-card" id="card-one">
+                <a href="#">
+                  <img
+                    src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756998/sqsp.jpg"
+                    alt="squarespace"
+                    id="img-sqsp"
+                  />
+                  <span class="card-txt" id="card-txt-one">Squaresp...</span>
+                </a>
+              </div>
+
+              <div class="dropcont search-card" id="card-two">
+                <a href="#">
+                  <img
+                    src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610757042/wp.png"
+                    alt="wordpress"
+                    id="img-wp"
+                  />
+                  <span class="card-txt" id="card-txt-two">WordPress</span>
+                </a>
+              </div>
+
+              <div class="dropcont search-card" id="card-three">
+                <a href="#">
+                  <img
+                    src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756908/gd.jpg"
+                    alt="go daddy"
+                    id="img-gd"
+                  />
+                  <span class="card-txt" id="card-txt-three" id="card-txt-two"
+                    >GoDaddy</span
+                  >
+                </a>
+              </div>
+
+              <div class="dropcont search-card" id="card-four">
+                <a href="#">
+                  <img
+                    src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610757030/wb.png"
+                    alt="weebly"
+                    id="img-wb"
+                  />
+                  <span class="card-txt" id="card-txt-four">Weebly</span>
+                </a>
+              </div>
+
+              <div class="dropcont search-card" id="card-five">
+                <a href="#">
+                  <img
+                    src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756990/sh.png"
+                    alt="shopify"
+                    id="img-sh"
+                  />
+                  <span class="card-txt" id="card-txt-five">Shopify</span>
+                </a>
+              </div>
+
+              <div class="dropcont search-card" id="card-six">
+                <a href="#">
+                  <img
+                    src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610757037/wf.png"
+                    alt="webflow"
+                    id="img-wf"
+                  />
+                  <span class="card-txt" id="card-txt-six">Webflow</span>
+                </a>
+              </div>
+            </div>
+
+            <div id="see-more-cont">
+              <div id="see-more-box">
+                <button id="see-more-button">See more</button>
+                <span id="see-more-arrow"> ➔ </span>
+              </div>
+            </div>
+          </div>
+
+          <hr />
+
+          <div id="card-box-cont">
+            <div class="card-box" id="card-box-two">
+              <img
+                src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756958/mr.png"
+                alt="mobirise"
+                id="img-mr"
+              />
+              <button
+                class="dropbtn people-also-search"
+                id="dropbtn-dos"
+                onclick="arrowDosTogg()"
+              >
+                Web design program
+              </button>
+              <span class="dropbtn-arrow" id="dropbtn-dos-arrow">ˇ</span>
+            </div>
+          </div>
+
+          <div class="div-main feedback" id="feedback-two">
+            <span class="feedback"> Feedback </span>
           </div>
         </div>
-
-        <div class="div-main people-search" id="expand-dos">
-          <div class="dropcont people-search" id="card-uno">
-            <a href="#">
-              <img src="/images/mr.png" alt="mobirise">
-              <span>Mobirise</span>
-            </a>
-          </div>
-
-          <div class="dropcont people-search" id="card-dos">
-            <a href="#">
-              <img src="/images/gdes.png" alt="google web designer">
-              <span>Google Web Designer</span>
-            </a>
-          </div>
-
-          <div class="dropcont people-search" id="card-tres">
-            <a href="#">
-              <img src="/images/dw.png" alt="adobe dreamweaver">
-              <span>Adobe Dreamwe...</span>
-            </a>
-          </div>
-
-          <div class="dropcont people-search" id="card-cuatro">
-            <a href="#">
-              <img src="/images/cc.jpeg" alt="coffeecup html editor">
-              <span>CoffeeCup HTML Editor</span>
-            </a>
-          </div>
-
-          <div class="dropcont people-search" id="card-cinco">
-            <a href="#">
-              <img src="/images/rw.jpeg" alt="rapidweaver">
-              <span>RapidWe...</span>
-            </a>
-          </div>
-
-          <div class="dropcont people-search" id="card-seis">
-            <a href="#">
-              <img src="/images/oe.jpeg" alt="openelement">
-              <span>openEle...</span>
-            </a>
-          </div>
-          <div>
-          <button>
-            See more
-          </button>
-          <span>
-            ➔
-          </span>
-        </div>
-      </div>
       </section>
       <!--People Also Search-->
 
       <!--Related Searches-->
+      <h4 id="related-search-head">Searches related to build this webpage</h4>
+
       <section class="div-main div-related" id="section-related">
         <div class="div-main div-related" id="div-related">
           <span class="link-related" id="related-one">
@@ -730,104 +695,172 @@
 
       <section class="div-main div-index" id="page-index">
         <div class="div-main div-index" id="index-container">
-          <div class="div-item" id="item-g">
-            <img src="/images/k(ooler).png" alt="letter 'k'" />
+          <div class="dex" id="item-k">
+            <img
+              src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756915/k(ooler).png"
+              alt="letter 'k'"
+              class="letter"
+              id="img-k"
+            />
           </div>
 
-          <div class="div-item" id="item-one">
+          <div class="dex" id="item-one">
             <a href="#">
-              <img src="/images/(k)o(oler).png" alt="letter 'o'" />
-              <span>1</span>
+              <img
+                src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756872/(k)o(oler).png"
+                alt="letter 'o'"
+                class="img-o letter"
+                id="img-red-o"
+              />
+              <span class="dex-span">1</span>
             </a>
           </div>
 
-          <div class="div-item" id="item-two">
+          <div class="dex" id="item-two">
             <a href="#">
-              <img src="/images/(ko)o(ler).png" alt="letter 'o'" />
-              <span>2</span>
+              <img
+                src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756882/(ko)o(ler).png"
+                alt="letter 'o'"
+                class="img-o letter i-o"
+                id="img-o-two"
+              />
+              <span class="dex-span">2</span>
             </a>
           </div>
 
-          <div class="div-item" id="item-three">
+          <div class="dex" id="item-three">
             <a href="#">
-              <img src="/images/(ko)o(ler).png" alt="letter 'o'" />
-              <span>3</span>
+              <img
+                src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756882/(ko)o(ler).png"
+                alt="letter 'o'"
+                class="img-o letter i-o"
+                id="img-o-three"
+              />
+              <span class="dex-span">3</span>
             </a>
           </div>
 
-          <div class="div-item" id="item-four">
+          <div class="dex" id="item-four">
             <a href="#">
-              <img src="/images/(ko)o(ler).png" alt="letter 'o'" />
-              <span>4</span>
+              <img
+                src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756882/(ko)o(ler).png"
+                alt="letter 'o'"
+                class="img-o letter i-o"
+                id="img-o-four"
+              />
+              <span class="dex-span">4</span>
             </a>
           </div>
 
-          <div class="div-item" id="item-five">
+          <div class="dex" id="item-five">
             <a href="#">
-              <img src="/images/(ko)o(ler).png" alt="letter 'o'" />
-              <span>5</span>
+              <img
+                src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756882/(ko)o(ler).png"
+                alt="letter 'o'"
+                class="img-o letter i-o"
+                id="img-o-five"
+              />
+              <span class="dex-span">5</span>
             </a>
           </div>
 
-          <div class="div-item" id="item-six">
+          <div class="dex" id="item-six">
             <a href="#">
-              <img src="/images/(ko)o(ler).png" alt="letter 'o'" />
-              <span>6</span>
+              <img
+                src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756882/(ko)o(ler).png"
+                alt="letter 'o'"
+                class="img-o letter i-o"
+                id="img-o-six"
+              />
+              <span class="dex-span">6</span>
             </a>
           </div>
 
-          <div class="div-item" id="item-seven">
+          <div class="dex" id="item-seven">
             <a href="#">
-              <img src="/images/(ko)o(ler).png" alt="letter 'o'" />
-              <span>7</span>
+              <img
+                src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756882/(ko)o(ler).png"
+                alt="letter 'o'"
+                class="img-o letter i-o"
+                id="img-o-seven"
+              />
+              <span class="dex-span">7</span>
             </a>
           </div>
 
-          <div class="div-item" id="item-eight">
+          <div class="dex" id="item-eight">
             <a href="#">
-              <img src="/images/(ko)o(ler).png" alt="letter 'o'" />
-              <span>8</span>
+              <img
+                src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756882/(ko)o(ler).png"
+                alt="letter 'o'"
+                class="img-o letter i-o"
+                id="img-o-eight"
+              />
+              <span class="dex-span">8</span>
             </a>
           </div>
 
-          <div class="div-item" id="item-nine">
+          <div class="dex" id="item-nine">
             <a href="#">
-              <img src="/images/(ko)o(ler).png" alt="letter 'o'" />
-              <span>9</span>
+              <img
+                src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756882/(ko)o(ler).png"
+                alt="letter 'o'"
+                class="img-o letter i-o"
+                id="img-o-nine"
+              />
+              <span class="dex-span">9</span>
             </a>
           </div>
 
-          <div class="div-item" id="item-ten">
+          <div class="dex" id="item-ten">
             <a href="#">
-              <img src="/images/(ko)o(ler).png" alt="letter 'o'" />
-              <span>10</span>
+              <img
+                src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756882/(ko)o(ler).png"
+                alt="letter 'o'"
+                class="img-o letter i-o"
+                id="img-o-ten"
+              />
+              <span class="dex-span">10</span>
             </a>
           </div>
 
-          <div class="div-item" id="item-next">
+          <div class="dexx" id="item-next">
             <a href="#">
-              <img src="/images/(koo)ler.png" alt="letters 'ler'" />
-              <span>❯</span>
-              <span>Next</span>
+              <img
+                src="https://res.cloudinary.com/permalik/image/upload/q_50/v1610756890/(koo)ler.png"
+                alt="letters 'ler'"
+                class="letter"
+                id="img-ler"
+              />
+              <span id="ler-arrow">❯</span>
+              <span id="ler-string">Next</span>
             </a>
           </div>
         </div>
       </section>
     </main>
-    <footer>
-      <div class="div-footer" id="location">
-        <span
-          >● <strong>20000, League City, ATLS</strong> - From your Internet
-          address - Use precise location - Learn more</span
-        >
-      </div>
 
-      <div class="div-footer" id="links">
-        <a href="#">Help</a>
-        <a href="#">Send feedback</a>
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
+    <footer>
+      <div id="location-box">
+        <div class="div-footer" id="location">
+          <span class="location-stamp" id="location-dot">●</span>
+          <span class="location-stamp"
+            ><strong>20000, League City, ATLS</strong></span
+          >
+          <span id="location-info">
+            - From your Internet address - Use precise location - Learn
+            more</span
+          >
+        </div>
+
+        <div class="div-footer" id="links">
+          <a href="#" class="btm-link">Help</a>
+          <a href="#" class="btm-link">Send feedback</a>
+          <a href="#" class="btm-link">Privacy</a>
+          <a href="#" class="btm-link">Terms</a>
+        </div>
       </div>
     </footer>
+    <script src="/scripts.js"></script>
   </body>
 </html>
