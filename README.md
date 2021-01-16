@@ -1,3 +1,6 @@
-1. Created 'googe-search-results-page' repo in GitHub
-2. Made 'google-search-results-page' directory for project files
-3. Added README.md, html, css-reset, css-style and javascript files
+This is a Google Search Results clone.
+
+The purpose of this project is one of education and a continuation of the Odin Project challenges.
+Goals: structuring HTML, writing appropriate and effective CSS, adding minimal JavaScript functionality for base page behavior
+
+While this project mimics a search results page, if will not truly function as such.
